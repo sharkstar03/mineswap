@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'secret' => env('NOCAPTCHA_SECRET'),
-    'sitekey' => env('NOCAPTCHA_SITEKEY'),
+    'secret' => env('6LdGDqAqAAAAAFwspx0EmFtNlbKzbmojNwEzJWfF'),
+    'sitekey' => env('6LdGDqAqAAAAAMOciqC2xpJSkP9CztM5uwY8rYZS'),
     'options' => [
         'timeout' => 30,
     ],
