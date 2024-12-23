@@ -47,10 +47,6 @@
                                         <h6 class="sub-info">{{$item->referral}}%</h6>
                                     </li>
                                 @endif
-                                <li>
-                                    <span class="sub-info-title">@lang('Hashrate')</span>
-                                    <h6 class="sub-info">{{$item->hash_rate_speed.' '.trans($item->hash_rate_unit)}}</h6>
-                                </li>
                             </ul>
                             <a href="javascript:void(0)"
                                data-bs-backdrop='static' data-keyboard='false'
